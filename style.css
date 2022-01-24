@@ -10,8 +10,10 @@
     width: 45px;
 }
 .header {
+    margin:0;
+    display: flex;
     text-align: center;
-    padding: 15px, 20px;
+    padding: 0 40px 0 40px;
     display:flex;
     justify-content: space-between;
     position: sticky;
@@ -26,27 +28,26 @@
     width:400px;
     display:flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:left;
 }
 
-.header-input{
+.header-left-input{
     display:flex;
-    align-items: center;
+    align-items: left;
     background-color:#eff2f5;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     border-radius: 999px;
 
 }
-.header-input input{
+.header-left-input input{
     border: none;
     background-color:transparent;
     outline: 0;
 
 }
 .header-middle {
-    width: 1120px;
-    display:flex;
+    display: flex;
     flex:1;
     justify-content: center;
 }
@@ -61,7 +62,7 @@
 .header-option{
     display: flex;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 40px;
     cursor: pointer;
 }
 .header-option.active .material-icons{
@@ -72,10 +73,8 @@
 }
 .header-option:hover{
     background-color: #eff2f5;
-    border-radius:10px;
     align-items: center;
-    padding: 0 30px;
-    border-bottom: none;
+    padding: 0 40px;
 }
 .header-info{
     display:flex;
@@ -84,6 +83,7 @@
 }
 .header-info h4{
     margin-left: 10px;
+    padding-right: 40px;
 }
 .header-right{
     width:400px;
